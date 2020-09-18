@@ -27,7 +27,7 @@ export default {
       var image = document.getElementById("image")
       var description = document.getElementById("description")
 
-      if (scroll_top >= (window.innerHeight * 2.99)) {
+      if (scroll_top >= (window.innerHeight * 2)) {
         image.style.opacity = 1
         image.style.marginTop = 0
         description.style.opacity = 1
